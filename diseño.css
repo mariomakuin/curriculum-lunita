@@ -1,0 +1,110 @@
+/* Fondo general */
+body {
+    background-color: rgb(215, 230, 245); /* Azul muy claro de fondo */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: rgb(10, 30, 60); /* Azul marino oscuro */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* Centrar imagen */
+.centrar {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Foto cuadrada con esquinas redondeadas */
+.centrar img {
+    border-radius: 20px; /* Redondea solo las esquinas */
+    border: 3px rgb(20, 60, 110) solid; /* Borde azul marino */
+}
+
+/* Títulos de secciones */
+h2 {
+    color: rgb(20, 60, 110); /* Azul marino */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Cuadros/tarjetas para las secciones */
+.tarjeta {
+    background-color: rgb(255, 255, 255); /* Fondo blanco */
+    border: 2px rgb(70, 130, 180) solid; /* Borde azul */
+    border-radius: 10px; /* Esquinas redondeadas */
+    width: 90%;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+/* Lista */
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 45, 80);
+}
+
+/* Párrafos */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 45, 80);
+}
+
+/* Tabla con borde azul */
+table {
+    width: 95%;
+    margin: 2px auto;
+    border: 2px rgb(20, 60, 110) solid;
+}
+
+/* Encabezados de tabla */
+th {
+    background-color: rgb(20, 60, 110); /* Fondo azul marino */
+    color: rgb(255, 255, 255); /* Letra blanca */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Celdas de la tabla */
+td {
+    border: 1px rgb(70, 130, 180) solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 45, 80);
+    padding: 5px;
+}
+
+/* Formulario */
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 45, 80);
+}
+
+/* Botones con las clases que usaron */
+.botones {
+    padding: 10px;
+    text-align: center;
+}
+
+.boton {
+    width: 40%;
+    background-color: rgb(20, 60, 110); /* Azul marino */
+    color: rgb(255, 255, 255); /* Letra blanca */
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px rgb(20, 60, 110) solid;
+}
+
+.boton2 {
+    width: 40%;
+    background-color: rgb(70, 130, 180); /* Tonalidad azul medio */
+    color: rgb(255, 255, 255); /* Letra blanca */
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px rgb(70, 130, 180) solid;
+}
